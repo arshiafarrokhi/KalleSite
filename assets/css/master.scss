@@ -1,0 +1,60 @@
+@font-face {
+    font-family: iranSans;
+    src: url(../fonts/IRANSansWeb\(FaNum\).woff2);
+}
+
+@font-face {
+    font-family: shabnam;
+    src: url(../fonts/Shabnam.woff2);
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.hambMenuIcon {
+    span {
+        transition: all ease .4s;
+
+        &:nth-child(1) {
+            transform: translateX(-19px) rotate(-45deg);
+            display: inline-block;
+        }
+
+        &:nth-child(2) {
+            opacity: 0;
+        }
+
+        &:nth-child(3) {
+            transform: translateX(19px) rotate(45deg);
+            display: inline-block;
+        }
+    }
+}
+
+.hambMenu {
+    font-family: iranSans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -500%;
+    z-index: -1;
+    background-color: #ffcfc6;
+    transition: .4s;
+}
+
+@media(min-width:640px) {
+    .hambMenu {
+        z-index: 1;
+    }
+}
+
+.hambMenuShow {
+    left: 0;
+}
