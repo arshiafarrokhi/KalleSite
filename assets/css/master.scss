@@ -3,15 +3,30 @@
     src: url(../fonts/IRANSansWeb\(FaNum\).woff2);
 }
 
+.iranSans {
+    font-family: iranSans;
+}
+
 @font-face {
     font-family: shabnam;
     src: url(../fonts/Shabnam.woff2);
+}
+
+.shabnam {
+    font-family: shabnam;
 }
 
 body {
     height: 100vh;
     position: relative;
     overflow-x: hidden;
+    user-select: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hambMenuIcon {
@@ -44,8 +59,9 @@ body {
     position: absolute;
     top: 0;
     left: -500%;
-    z-index: -1;
-    background-color: #ffcfc6;
+    z-index: 500;
+    background-color: #ffcdc6a2;
+    backdrop-filter: blur(5px);
     transition: .4s;
 }
 
@@ -57,4 +73,146 @@ body {
 
 .hambMenuShow {
     left: 0;
+}
+
+.swiperLeft {
+    width: 33%;
+    height: 130%;
+    position: relative !important;
+    z-index: 0 !important;
+}
+
+.swiperCenter {
+    // display: flex !important;
+    // align-items: center !important;
+    // justify-content: center !important;
+    padding: 20px;
+    width: 33%;
+    height: 60%;
+    position: relative !important;
+    z-index: 0 !important;
+}
+
+.mySwiperRight {
+    width: 33%;
+    height: 100%;
+    position: relative !important;
+    z-index: 0 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .swiperLeft {
+        width: 50%;
+        height: 130%;
+        position: relative !important;
+        z-index: 0 !important;
+    }
+
+    .swiperCenter {
+        // display: flex !important;
+        // align-items: center !important;
+        // justify-content: center !important;
+        padding: 20px;
+        width: 50%;
+        height: 60%;
+        position: relative !important;
+        z-index: 0 !important;
+    }
+
+    .mySwiperRight {
+        display: none;
+        position: relative !important;
+        z-index: 0 !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .swiperLeft {
+        display: none;
+    }
+
+    .swiperCenter {
+        display: none;
+    }
+
+    .mySwiperRight {
+        display: none;
+    }
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    // background: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next {
+    top: 80% !important;
+    right: -5% !important;
+    scale: .6;
+    background-color: #f9f9faaa;
+    padding: 50px;
+    color: #ee3439 !important;
+}
+
+.swiper-button-prev {
+    top: 90% !important;
+    right: -5% !important;
+    font-size: 10px !important;
+    scale: .6;
+    background-color: #f9f9faaa;
+    padding: 50px;
+    color: #ee3439 !important;
+}
+
+
+.swiper-wrapper {
+    display: flex;
+    align-items: start;
+
+}
+
+.autoplay-progress {
+    display: none !important;
+}
+
+.autoplay-progress svg {
+    display: none !important;
+}
+
+
+.btn::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 50px;
+    // border: 1px solid red;
+    border-radius: 4px;
+    background-color: #ee343a5e;
+    margin-top: -38px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 400ms ease-in-out 0s;
+}
+
+.btn:hover::after {
+    transform: scaleX(1);
+
+}
+
+.swiper-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
