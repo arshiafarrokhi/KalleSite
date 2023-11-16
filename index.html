@@ -17,147 +17,159 @@
 </head>
 
 <body class="w-full 2xl:container h-[75vh] mx-auto">
-    <nav
-        class="w-[100%] h-[100px] sm:h-[150px] sm:bg-transparent bg-[#ee3439] flex items-center justify-between sm:px-[100px] px-[30px] absolute top-0 left-0 ">
-        <div class=" hambMenu">
-            <ul class="flex items-center justify-center flex-col">
-                <li class="my-4 text-[#ee3439] text-2xl"><a href="#">خانه</a></li>
-                <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">محصولات</a></li>
-                <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">کتاب کاله</a></li>
-                <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">اخبار</a></li>
-                <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">تماس با ما</a></li>
-                <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">درباره ما</a></li>
-            </ul>
-        </div>
-        <div class=" hidden sm:flex h-full bg-[#ee3439] items-end p-10 relative z-10">
-            <span id="hambMenuIcon1" class="text-[#fff] text-3xl cursor-pointer select-none rotate-90">
-                <span>|</span>
-                <span>|</span>
-                <span>|</span>
-            </span>
-        </div>
-        <figure>
-            <img class="w-[80px] h-[50px] relative z-10" src="assets/images/kale logo.png" alt="">
-        </figure>
-        <div class="hidden sm:flex" <i class="bi bi-instagram"></i>
-            <i
-                class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-twitter"></i>
-            <i
-                class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-search"></i>
-            <i
-                class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-cart"></i>
-            <i
-                class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-globe-central-south-asia"></i>
-        </div>
-        <div class="sm:hidden flex ">
-            <i class="mx-[12px] cursor-pointer text-2xl text-white transition-all bi bi-search"></i>
-            <i class="mx-[12px] cursor-pointer text-2xl text-white transition-all bi bi-cart"></i>
-            <i
-                class="ml-7 mx-[12px] cursor-pointer text-2xl text-white transition-all bi bi-globe-central-south-asia"></i>
-            <div class="rotate-90">
-                <span id="hambMenuIcon2" class="text-[#fff] relative text-3xl cursor-pointer select-none ">
+    <div class="fullHeader">
+        <nav
+            class="w-[100%] h-[100px] sm:h-[150px] sm:bg-transparent bg-[#ee3439] flex items-center justify-between sm:px-[100px] px-[30px] md:absolute fixed z-[999] top-0 left-0 ">
+            <div class=" hambMenu">
+                <ul class="flex items-center justify-center flex-col">
+                    <li class="my-4 text-[#ee3439] text-2xl"><a href="#">خانه</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">محصولات</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">کتاب کاله</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">اخبار</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">تماس با ما</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">درباره ما</a></li>
+                </ul>
+            </div>
+            <div class=" hidden sm:flex h-full bg-[#ee3439] items-end p-10 relative z-10">
+                <span id="hambMenuIcon1" class="text-[#fff] text-3xl cursor-pointer select-none rotate-90">
                     <span>|</span>
                     <span>|</span>
                     <span>|</span>
                 </span>
             </div>
-        </div>
-    </nav>
-    <header class="flex flex-col md:flex-row w-full h-full relative">
-        <div class="swiperRight overflow-hidden mySwiperRight mt-28">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img class="scale-50 -rotate-12" src="assets/images/101.webp" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img class="scale-50 -rotate-12" src="assets/images/102.webp" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img class="scale-50 -rotate-12" src="assets/images/104.webp" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img class="scale-50 -rotate-12" src="assets/images/105.webp" alt="">
+            <figure>
+                <img class="w-[80px] h-[50px] relative z-10" src="assets/images/kale logo.png" alt="">
+            </figure>
+            <div class="hidden sm:flex" <i class="bi bi-instagram"></i>
+                <i
+                    class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-twitter"></i>
+                <i
+                    class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-search"></i>
+                <i
+                    class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-cart"></i>
+                <i
+                    class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-globe-central-south-asia"></i>
+            </div>
+            <div class="sm:hidden flex ">
+                <i class="mx-[8px] cursor-pointer text-2xl text-white transition-all bi bi-search"></i>
+                <i class="mx-[8px] cursor-pointer text-2xl text-white transition-all bi bi-cart"></i>
+                <i
+                    class="ml-7 mx-[12px] cursor-pointer text-2xl text-white transition-all bi bi-globe-central-south-asia"></i>
+                <div class="rotate-90">
+                    <span id="hambMenuIcon2" class="text-[#fff] relative text-3xl cursor-pointer select-none ">
+                        <span>|</span>
+                        <span>|</span>
+                        <span>|</span>
+                    </span>
                 </div>
             </div>
-            <div class="autoplay-progress">
-                <svg viewBox="0 0 48 48">
-                    <circle cx="24" cy="24" r="20"></circle>
-                </svg>
-                <span></span>
-            </div>
-        </div>
-        <div class="swiperCenter overflow-hidden mySwiperCenter mt-64">
-            <div class="swiper-wrapper ">
-                <div class="swiper-slide cursor-default">
-                    <h2 class="shabnam my-5 text-5xl font-black  text-[#393939]">ماست سون</h2>
-                    <p class=" iranSans my-12 px-10 text-[#555555] text-base">تهیه شده از شیرپاستوریزه و خامه پاستوریزه
-                        و شیر تغلیظ شده
-                        بدون چربی و
-                        باکتری فعال ماست و...</p>
-                    <button
-                        class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
-                        بیشتر...</button>
+        </nav>
+        <header class="flex flex-col md:flex-row w-full h-full relative ">
+            <div class="swiperRight overflow-hidden mySwiperRight md:mt-28 mt-16">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+                        <img class="md:scale-50 scale-[.5] md:-mt-8 mt-16 swiperimg -rotate-12"
+                            src="assets/images/101.webp" alt="">
+                    </div>
+                    <div class="swiper-slide ">
+                        <img class="md:scale-50 scale-[.5] md:-mt-8 mt-16 swiperimg -rotate-12"
+                            src="assets/images/102.webp" alt="">
+                    </div>
+                    <div class="swiper-slide ">
+                        <img class="md:scale-50 scale-[.5] md:-mt-8 mt-16 swiperimg -rotate-12"
+                            src="assets/images/104.webp" alt="">
+                    </div>
+                    <div class="swiper-slide ">
+                        <img class="md:scale-50 scale-[.5] md:-mt-8 mt-16 swiperimg -rotate-12"
+                            src="assets/images/105.webp" alt="">
+                    </div>
                 </div>
-                <div class="swiper-slide cursor-default">
-                    <h2 class="shabnam my-5  text-5xl font-black text-[#393939]">ماست سنتی</h2>
-                    <p class="  iranSans my-12 px-10 text-[#393939] text-base">تهیه شده از شیرپاستوریزه و خامه پاستوریزه
-                        و
-                        شیر تغلیظ شده بدون چربی و باکتری فعال ماست و...</p>
-                    <button
-                        class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
-                        بیشتر...</button>
-                </div>
-                <div class="swiper-slide cursor-default">
-                    <h2 class="shabnam my-5  text-5xl font-black text-[#393939]">مکمل پروتئین وی وانیلی</h2>
-                    <p class="  iranSans my-12 px-10 text-[#393939] text-base">تهیه شده از پودر پروتئین وی و طعم دهنده
-                        طبیعی وانیل و...</p>
-                    <button
-                        class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
-                        بیشتر...</button>
-                </div>
-                <div class="swiper-slide cursor-default">
-                    <h2 class="shabnam my-5  text-5xl font-black text-[#393939]">پروشیک وانیلی</h2>
-                    <p class="  iranSans my-12 px-10 text-[#393939] text-base">تهیه شده از شیر پاستوریزه 1.7% چربی و
-                        نشاسته و ایزوله پروتئین آب پنیر و مالتودکسترین و قوام دهنده(کاراگینان) و...</p>
-                    <button
-                        class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
-                        بیشتر...</button>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
                 </div>
             </div>
-            <div class="autoplay-progress">
-                <svg viewBox="0 0 48 48">
-                    <circle cx="24" cy="24" r="20"></circle>
-                </svg>
-                <span></span>
+            <div class="swiperCenter overflow-hidden mySwiperCenter mt-64">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide cursor-default">
+                        <h2 class="shabnam md:my-5 text-5xl font-normal  text-[#393939]">ماست سون</h2>
+                        <p class=" iranSans md:my-12 px-10 text-[#555555] text-base">تهیه شده از شیرپاستوریزه و خامه
+                            پاستوریزه
+                            و شیر تغلیظ شده
+                            بدون چربی و
+                            باکتری فعال ماست و...</p>
+                        <button
+                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
+                            بیشتر</button>
+                    </div>
+                    <div class="swiper-slide cursor-default">
+                        <h2 class="shabnam md:my-5  text-5xl font-normal text-[#393939]">ماست سنتی</h2>
+                        <p class="  iranSans md:my-12 px-10 text-[#393939] text-base">تهیه شده از شیرپاستوریزه و خامه
+                            پاستوریزه
+                            و
+                            شیر تغلیظ شده بدون چربی و باکتری فعال ماست و...</p>
+                        <button
+                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
+                            بیشتر</button>
+                    </div>
+                    <div class="swiper-slide cursor-default">
+                        <h2 class="shabnam md:my-5  text-5xl font-normal text-[#393939]">مکمل پروتئین وی </h2>
+                        <p class="  iranSans md:my-12 px-10 text-[#393939] text-base">تهیه شده از پودر پروتئین وی و طعم
+                            دهنده
+                            طبیعی وانیل و...</p>
+                        <button
+                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
+                            بیشتر</button>
+                    </div>
+                    <div class="swiper-slide cursor-default">
+                        <h2 class="shabnam md:my-5  text-5xl font-normal text-[#393939]">پروشیک وانیلی</h2>
+                        <p class="  iranSans md:my-12 px-10 text-[#393939] text-base">تهیه شده از شیر پاستوریزه 1.7%
+                            چربی و
+                            نشاسته و ایزوله پروتئین آب پنیر و مالتودکسترین و قوام دهنده(کاراگینان) و...</p>
+                        <button
+                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
+                            بیشتر</button>
+                    </div>
+                </div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
             </div>
-        </div>
-        <div class="swiperLeft overflow-hidden mySwiperLeft">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="assets/images/107.webp" alt="">
+            <div class="swiperLeft overflow-hidden mySwiperLeft">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images/107.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/108.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/109.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/111.webp" alt="">
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <img src="assets/images/108.webp" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="assets/images/109.webp" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="assets/images/111.webp" alt="">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="autoplay-progress">
-                <svg viewBox="0 0 48 48">
-                    <circle cx="24" cy="24" r="20"></circle>
-                </svg>
-                <span></span>
-            </div>
-        </div>
+        </header>
+        <img class="md:scale-75 absolute md:top-10 md:right-16 top-24 right-0 -z-20" src="assets/images/11.png" alt="">
+    </div>
+    <div class="h-[100vh]">
 
-    </header>
-    <img class="scale-90 absolute top-10 right-16 -z-20" src="assets/images/11.png" alt="">
+    </div>
 </body>
 <script src="assets/js/hambMenu.js"></script>
 <!-- hamb menu -->

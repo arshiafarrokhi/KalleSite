@@ -47,6 +47,8 @@ var SwiperCenter = new Swiper(".mySwiperCenter", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
     },
+
+    
     
     on: {
         autoplayTimeLeft(s, time, progress) {
@@ -61,7 +63,7 @@ var SwiperCenter = new Swiper(".mySwiperCenter", {
 // const progressCircle = document.querySelector(".autoplay-progress svg");
 // const progressContent = document.querySelector(".autoplay-progress span");
 var SwiperRight = new Swiper(".mySwiperRight", {
-    spaceBetween: 30,
+    spaceBetween: 20,
     centeredSlides: true,
     autoplay: {
         delay: 5000,
