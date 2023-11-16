@@ -14,10 +14,14 @@
   font-family: shabnam;
 }
 
+.body {
+  overflow-x: hidden;
+}
+
 .fullHeader {
   height: 100vh !important;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
