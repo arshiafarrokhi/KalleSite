@@ -18,8 +18,8 @@
 
 <body class="w-full 2xl:container h-[75vh] mx-auto">
     <div class="fullHeader">
-        <nav
-            class="w-[100%] h-[100px] sm:h-[150px] sm:bg-transparent bg-[#ee3439] flex items-center justify-between sm:px-[100px] px-[30px] md:absolute fixed z-[999] top-0 left-0 ">
+        <nav id="navbar"
+            class="w-[100%] h-[100px] md:h-[150px] md:bg-transparent bg-[#ee3439] flex items-center justify-between md:px-[100px] px-[30px] fixed z-[999] top-0 left-0">
             <div class=" hambMenu">
                 <ul class="flex items-center justify-center flex-col">
                     <li class="my-4 text-[#ee3439] text-2xl"><a href="#">خانه</a></li>
@@ -30,7 +30,7 @@
                     <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">درباره ما</a></li>
                 </ul>
             </div>
-            <div class=" hidden sm:flex h-full bg-[#ee3439] items-end p-10 relative z-10">
+            <div class=" hidden md:flex h-full bg-[#ee3439] items-end p-10 relative z-10">
                 <span id="hambMenuIcon1" class="text-[#fff] text-3xl cursor-pointer select-none rotate-90">
                     <span>|</span>
                     <span>|</span>
@@ -40,7 +40,7 @@
             <figure>
                 <img class="w-[80px] h-[50px] relative z-10" src="assets/images/kale logo.png" alt="">
             </figure>
-            <div class="hidden sm:flex" <i class="bi bi-instagram"></i>
+            <div id="navbarIcons" class="hidden md:flex translate-x-20 navbarIcons" <i class="bi bi-instagram"></i>
                 <i
                     class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-twitter"></i>
                 <i
@@ -50,7 +50,7 @@
                 <i
                     class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-globe-central-south-asia"></i>
             </div>
-            <div class="sm:hidden flex ">
+            <div class="md:hidden flex ">
                 <i class="mx-[8px] cursor-pointer text-2xl text-white transition-all bi bi-search"></i>
                 <i class="mx-[8px] cursor-pointer text-2xl text-white transition-all bi bi-cart"></i>
                 <i
@@ -101,7 +101,7 @@
                             بدون چربی و
                             باکتری فعال ماست و...</p>
                         <button
-                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
+                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[45%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
                             بیشتر</button>
                     </div>
                     <div class="swiper-slide cursor-default">
@@ -111,7 +111,7 @@
                             و
                             شیر تغلیظ شده بدون چربی و باکتری فعال ماست و...</p>
                         <button
-                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
+                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[45%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
                             بیشتر</button>
                     </div>
                     <div class="swiper-slide cursor-default">
@@ -120,7 +120,7 @@
                             دهنده
                             طبیعی وانیل و...</p>
                         <button
-                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
+                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[45%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
                             بیشتر</button>
                     </div>
                     <div class="swiper-slide cursor-default">
@@ -129,7 +129,7 @@
                             چربی و
                             نشاسته و ایزوله پروتئین آب پنیر و مالتودکسترین و قوام دهنده(کاراگینان) و...</p>
                         <button
-                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[30%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
+                            class="whitespace-nowrap mb-5 iranSans justify-self-center w-[45%] pt-2 lg:justify-self-end lg:w-[40%] text-[20px] rounded-md p-0 text-black border-2 border-black btn ">اطلاعات
                             بیشتر</button>
                     </div>
                 </div>
@@ -167,14 +167,126 @@
         </header>
         <img class="md:scale-75 absolute md:top-10 md:right-16 top-24 right-0 -z-20" src="assets/images/11.png" alt="">
     </div>
-    <div class="h-[100vh]">
 
-    </div>
+    <!-- **************************end header******************************************* -->
+    <!-- **************************start 100vh2******************************************* -->
+    <section class="w-full bg-[#fafafa] p-16 overflow-hidden">
+        <h3 class="shabnam mb-8 font-medium text-xl mahsolatKale">محصولات کاله</h3>
+        <div class="swiperta mySwiperta">
+            <div class="swiper-wrapper shabnam text-[14px] overflow-hidden swiper-wrapperta">
+                <div
+                    class=" hover:text-[#ee3439] transition-all cursor-pointer swiper-slide hoverta h-[250px] w-full flex flex-col items-center justify-center">
+                    <img class=" swiperimgta w-[5px] h-[3px] my-8 imgSlideta" src="assets/images/milk.png" alt="">
+                    <p>شیر</p>
+                    <div class="hover"> </div>
+                </div>
+                <div
+                    class=" hover:text-[#ee3439] transition-all cursor-pointer swiper-slide hoverta h-[250px] w-full flex flex-col items-center justify-center">
+                    <img class=" swiperimgta w-[5px] h-[3px] my-8 imgSlideta" src="assets/images/butter.png" alt="">
+                    <p>کیک</p>
+                    <div class="hover"> </div>
+                </div>
+                <div
+                    class=" hover:text-[#ee3439] transition-all cursor-pointer swiper-slide hoverta h-[250px] w-full flex flex-col items-center justify-center">
+                    <img class=" swiperimgta w-[5px] h-[3px] my-8 imgSlideta" src="assets/images/cheese - Copy.png"
+                        alt="">
+                    <p>پنیر</p>
+                    <div class="hover"> </div>
+                </div>
+                <div
+                    class=" hover:text-[#ee3439] transition-all cursor-pointer swiper-slide hoverta h-[250px] w-full flex flex-col items-center justify-center">
+                    <img class=" swiperimgta w-[5px] h-[3px] my-8 imgSlideta" src="assets/images/cream.png" alt="">
+                    <p>کارامل</p>
+                    <div class="hover"> </div>
+                </div>
+                <div
+                    class=" hover:text-[#ee3439] transition-all cursor-pointer swiper-slide hoverta h-[250px] w-full flex flex-col items-center justify-center">
+                    <img class=" swiperimgta w-[5px] h-[3px] my-8 imgSlideta" src="assets/images/mast.png" alt="">
+                    <p>ماست</p>
+                    <div class="hover"> </div>
+                </div>
+                <div
+                    class=" hover:text-[#ee3439] transition-all cursor-pointer swiper-slide hoverta h-[250px] w-full flex flex-col items-center justify-center">
+                    <img class="swiperimgta w-[5px] h-[3px] my-8 imgSlideta" src="assets/images/souse.png" alt="">
+                    <p>سس</p>
+                    <div class="hover"> </div>
+                </div>
+                <div
+                    class=" hover:text-[#ee3439] transition-all cursor-pointer swiper-slide hoverta h-[250px] w-full flex flex-col items-center justify-center">
+                    <img class=" swiperimgta w-[5px] h-[3px] my-8 imgSlideta" src="assets/images/desert.png" alt="">
+                    <p>کیک</p>
+                    <div class="hover"> </div>
+                </div>
+            </div>
+            <div class="swiper-paginationta flex h-[10px] justify-center items-center mt-10"></div>
+        </div>
+    </section>
+    <section class="w-full overflow-hidden flex justify-between h-[100vh]">
+        <p class="shabnam m-20 font-medium text-xl mahsolatKale ">محصولات لبنی کاله</p>
+        <div class="swiper3nd100vh mySwiper3nd100vh overflow-hidden w-[900px] h-full">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide3nd100vh infoHover">
+                    <div class="info flex flex-col items-center justify-center shabnam">
+                        <img class="swiperimgta" src="assets/images/butter.png" alt="">
+                        <p >نوشیدنی لاکی</p>
+                    </div>
+                    <img src="assets/images/11.webp" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide3nd100vh infoHover">
+                    <div class="info flex flex-col items-center justify-center shabnam">
+                        <img class="swiperimgta" src="assets/images/mast.png" alt="">
+                        <p >ماست پرو</p>
+                    </div>
+                    <img src="assets/images/12.webp" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide3nd100vh infoHover">
+                    <div class="info flex flex-col items-center justify-center shabnam">
+                        <img class="swiperimgta" src="assets/images/souse.png" alt="">
+                        <p >سس</p>
+                    </div>
+                    <img src="assets/images/13.webp" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide3nd100vh infoHover">
+                    <div class="info flex flex-col items-center justify-center shabnam">
+                        <img class="swiperimgta" src="assets/images/coc.png" alt="">
+                        <p >آبلیمو</p>
+                    </div>
+                    <img src="assets/images/14.webp" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide3nd100vh infoHover">
+                    <div class="info flex flex-col items-center justify-center shabnam">
+                        <img class="swiperimgta" src="assets/images/cream.png" alt="">
+                        <p >شیرینی</p>
+                    </div>
+                    <img src="assets/images/15.webp" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide3nd100vh infoHover">
+                    <div class="info flex flex-col items-center justify-center shabnam">
+                        <img class="swiperimgta" src="assets/images/butter.png" alt="">
+                        <p >شیرینی</p>
+                    </div>
+                    <img src="assets/images/16.webp" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide3nd100vh infoHover">
+                    <div class="info flex flex-col items-center justify-center shabnam">
+                        <img class="swiperimgta" src="assets/images/curd.png" alt="">
+                        <p >شیر</p>
+                    </div>
+                    <img src="assets/images/17.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 <script src="assets/js/hambMenu.js"></script>
 <!-- hamb menu -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <script src="assets/js/HeaderSwipers.js"></script>
+<script src="assets/js/100vh2Swiper.js"></script>
+<script src="assets/js/100vh3Swiper.js"></script>
 <!-- swiper -->
+<script src="assets/js/fixMenu.js"></script>
+<!-- fix menu -->
 
 </html>
