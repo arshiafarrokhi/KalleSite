@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cursor {
+            width: 30px;
+            height: 30px;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <img data-lazyloaded="1" data-placeholder-resp="714x585"
+        src="https://kalleh.com/wp-content/themes/kalleh/assets/images/story/bg.png.webp"
+        data-src="https://kalleh.com/wp-content/themes/kalleh/assets/images/story/bg.png.webp" alt="fly-background"
+        width="714" height="585" data-ll-status="loaded" class="entered litespeed-loaded">
+    <div id="cursor">
+
+        <img data-lazyloaded="1" data-placeholder-resp="575x296"
+            src="https://kalleh.com/wp-content/themes/kalleh/assets/images/story/products.png.webp"
+            class="fly entered litespeed-loaded" data-fly="-1"
+            data-src="https://kalleh.com/wp-content/themes/kalleh/assets/images/story/products.png.webp" height="296"
+            width="575" alt="fly-products" data-ll-status="loaded"
+            style="transform: translateX(0.702%) translateY(-0.848%);">
+        <img src="https://kalleh.com/wp-content/themes/kalleh/assets/images/story/baby.png.webp"
+            class="fly entered litespeed-loaded" data-fly="5" data-src=assets/images/story/baby.png.webp" width="659"
+            height="503" alt="baby-on-fly" data-ll-status="loaded"
+            style="transform: translateX(3.93%) translateY(3.765%);">
+    </div>
+
+
+</body>
+    <script>
+        var cursor = document.getElementById("cursor");
+        document.addEventListener("mousemove", function (e) {
+            var x = e.clientX / 10;
+            var y = e.clientY / 10;
+            cursor.style.top = y + "px";
+            cursor.style.left = x + "px";
+
+
+
+        })
+    </script>
+
+</html>
