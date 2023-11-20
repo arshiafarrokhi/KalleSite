@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: iranSans;
   src: url(../fonts/IRANSansWeb\(FaNum\).woff2);
@@ -248,7 +252,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: red !important;
   width: 30px !important;
   border-radius: 0 !important;
-  height: 2px !important;
+  height: 3px !important;
   opacity: 1;
 }
 
@@ -256,7 +260,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .swiper-pagination-bullet {
   width: 30px !important;
   border-radius: 0 !important;
-  height: 2px !important;
+  height: 3px !important;
   opacity: 1;
 }
 
@@ -329,11 +333,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   height: 100%;
   transition: 0.8s all;
   background-color: rgba(245, 245, 245, 0.599);
-}
-
-#cursor {
-  transform: translate(-50%, -50%);
-  position: absolute;
 }
 
 .slid {

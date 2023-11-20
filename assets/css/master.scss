@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: iranSans;
     src: url(../fonts/IRANSansWeb\(FaNum\).woff2);
@@ -272,7 +276,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: red !important;
     width: 30px !important;
     border-radius: 0 !important;
-    height: 2px !important;
+    height: 3px !important;
     opacity: 1;
 }
 
@@ -280,7 +284,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .swiper-pagination-bullet {
     width: 30px !important;
     border-radius: 0 !important;
-    height: 2px !important;
+    height: 3px !important;
     opacity: 1;
 }
 
@@ -311,7 +315,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     scale: 1.3;
 }
 
-.swiperimgr{
+.swiperimgr {
     display: block !important;
     width: 70% !important;
     height: 70% !important;
@@ -343,29 +347,29 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     position: relative !important;
 }
 
-.infoHover{   
+.infoHover {
     transition: .8s all;
 
-    &:hover .info{
+    &:hover .info {
         left: 0;
         transition: .8s all;
     }
 
     .info {
-        position: absolute ;
-        top: 0 ;
-        left: -100% ;
-        width: 100% ;
-        height: 100% ;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
         transition: .8s all;
         background-color: rgba(245, 245, 245, 0.599);
     }
 }
 
-#cursor {
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
+// #cursor {
+//     // transform: translate(-50%, -50%);
+
+// }
 
 
 .slid {
