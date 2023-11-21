@@ -406,4 +406,8 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.goToTop {
+  cursor: pointer;
 }/*# sourceMappingURL=master.css.map */
