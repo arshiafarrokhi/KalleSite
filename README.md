@@ -22,7 +22,7 @@
 
 ## About The Project
 
-<img src="assets\Untitled.png" alt="about">
+<img src="\assets\images\Untitled.png" alt="about">
 
 Hints :
 
