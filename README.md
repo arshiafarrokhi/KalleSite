@@ -1,20 +1,20 @@
 <br/>
 <p align="center">
-  <a href="https://snapp-site.vercel.app/">
-    <img src="assets\Untitled2.png" alt="Logo" width="250" height="150">
+  <a href="https://arshiafarrokhi.github.io/KalleSite/">
+    <img src="assets/images/kale logo.png" alt="Logo" width="250" height="150">
   </a>
 
-  <h3 align="center">SnappSite</h3>
+  <h3 align="center">KalleSite</h3>
 
   <p align="center">
     You can get more information from my personal website
     <br/>
     <br/>
-    <a href="https://snapp-site.vercel.app/">View Demo</a>
+    <a href="https://arshiafarrokhi.github.io/KalleSite/">View Demo</a>
     .
-    <a href="https://snapp-site.vercel.app/issues">Report Bug</a>
+    <a href="https://arshiafarrokhi.github.io/KalleSite/issues">Report Bug</a>
     .
-    <a href="https://snapp-site.vercel.app/issues">Request Feature</a>
+    <a href="https://arshiafarrokhi.github.io/KalleSite/issues">Request Feature</a>
   </p>
 </p>
 
