@@ -350,7 +350,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   height: 50px;
   border: 1px solid red;
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.441);
+  background-color: #ee3439;
   margin-top: -38px;
   transform: scaleX(0);
   transform-origin: left;
