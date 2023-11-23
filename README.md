@@ -26,7 +26,7 @@
 
 Hints :
 
-build with Html , css , sass , Tailwind & React
+build with Html , css , sass , Tailwind & JS
 It has been tried to clean the code
 happy we with star and follow in linkedin , enjoy coding :)
 
